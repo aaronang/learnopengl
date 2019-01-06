@@ -1,1 +1,3 @@
-add_subdirectory(triangles)
+add_subdirectory(hellotriangle)
+add_subdirectory(playground)
+add_subdirectory(shaders)
