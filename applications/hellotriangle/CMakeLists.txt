@@ -1,12 +1,12 @@
 cmake_minimum_required(VERSION 3.12)
 
-project(triangles)
+project(hellotriangle)
 
-add_executable(triangles src/main.cpp)
+add_executable(hellotriangle src/main.cpp)
 
 find_package(glfw3 REQUIRED)
 
-target_link_libraries(triangles
+target_link_libraries(hellotriangle
         glfw
         glad
         )
